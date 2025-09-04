@@ -74,5 +74,10 @@ else if (square[3] == square[5] && square[5] == square[7] && square[7] != '')
 {
 rel(3,5,7);
 }
+else{
+title.innerHTML += ' -No winner';
+   
+    setTimeout(function () { location.reload() }, 15000)
 
+}
 }
